@@ -35,13 +35,13 @@
 // export default App
 
 
-import Usereducer from "./Usereducer"
+import ColorChanger from "./Change";
 
 
 const App: React.FC = () => {
   return (
     <>
-      <Usereducer />
+      <ColorChanger/>
     </>
   );
 }
